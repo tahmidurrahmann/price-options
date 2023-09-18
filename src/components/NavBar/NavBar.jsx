@@ -22,7 +22,7 @@ const NavBar = () => {
                     open ? <AiOutlineClose></AiOutlineClose> : <HiMenuAlt1></HiMenuAlt1>
                 }
             </div>
-            <ul className={`md:flex justify-center md:static absolute duration-1000 my-4 ${open ? 'top-3' : '-top-60'}`}>
+            <ul className={`md:flex justify-center md:static duration-1000 absolute  my-4 ${open ? 'top-3' : '-top-60'}`}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
