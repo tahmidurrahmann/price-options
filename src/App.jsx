@@ -1,4 +1,5 @@
 import './App.css'
+import Axios from './components/Axios/Axios'
 import BarChart from './components/BarChart/BarChart'
 import NavBar from './components/NavBar/NavBar'
 import PieChart from './components/PieChart/PieChart'
@@ -16,6 +17,7 @@ function App() {
       <PieChart></PieChart>
       <BarChart></BarChart>
       </section>
+      <Axios></Axios>
     </>
   )
 }
